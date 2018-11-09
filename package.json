@@ -1,0 +1,20 @@
+{
+  "name": "simpleserver",
+  "version": "1.0.0",
+  "description": "This is simply a learning exercise putting together a simple server.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dashinja/simpleserver.git"
+  },
+  "author": "dashinja",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dashinja/simpleserver/issues"
+  },
+  "homepage": "https://github.com/dashinja/simpleserver#readme"
+}
