@@ -1,3 +1,4 @@
+// Exercise reference: https://nodejs.org/en/docs/guides/anatomy-of-an-http-transaction/
 const http = require('http');
 
 http
@@ -26,9 +27,7 @@ http
 
         const responseBody = { headers, method, url, body };
         //Turns responseBody object into JSON and puts it inside the write method to be sent as a response
-        res.end(
-          "<html><body><h1>I'm Dashinja</h1><p>I made this page</p></body></html>"
-        );
+        res.end(JSON.stringify(responseBody));
       });
   })
   .listen(8080); //Server listens for req and sends res over port 8080;
